@@ -8,6 +8,7 @@ exports[`gatsby-plugin-meeshkan-recorder injects a script tag if clientId is set
     Array [
       Array [
         <script
+          async={true}
           src="https://recorder.meeshkan.com/record.js?client_id=b00ecdd5-d1f7-4a87-9d1f-142cc16c78d8"
         />,
       ],

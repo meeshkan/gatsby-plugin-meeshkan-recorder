@@ -6,6 +6,7 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
 	if (pluginOptions && pluginOptions.clientId) {
 		const recorderScript = (
 			<script
+				async
 				key="meeshkan-recorder-script"
 				src={`${MEESHKAN_RECORDER_SRC}?client_id=${pluginOptions.clientId}`}
 			/>
