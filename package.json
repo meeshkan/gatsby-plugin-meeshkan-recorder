@@ -6,8 +6,8 @@
 	"scripts": {
 		"test": "jest",
 		"build": "babel src --out-dir . --ignore \"**/__tests__\"",
-    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\"",
-    "prepublish": "cross-env NODE_ENV=production npm run build",
+		"watch": "babel -w src --out-dir . --ignore \"**/__tests__\"",
+		"prepublish": "cross-env NODE_ENV=production npm run build",
 		"format": "prettier --write \"**/*.{js,json}\""
 	},
 	"keywords": [
