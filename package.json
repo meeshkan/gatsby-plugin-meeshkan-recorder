@@ -1,5 +1,5 @@
 {
-	"name": "gatsby-plugin-meeshkan-recorder",
+	"name": "@meeshkan/gatsby-plugin-meeshkan-recorder",
 	"version": "1.0.0",
 	"description": "Gatsby plugin to add the Meeshkan Recorder script to your site.",
 	"main": "index.js",
