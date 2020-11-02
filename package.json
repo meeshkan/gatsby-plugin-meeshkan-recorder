@@ -1,0 +1,39 @@
+{
+	"name": "gatsby-plugin-meeshkan-recorder",
+	"version": "1.0.0",
+	"description": "Gatsby plugin to add the Meeshkan Recorder script to your site.",
+	"scripts": {
+		"test": "jest",
+		"build": "babel src --out-dir . --ignore \"**/__tests__\"",
+		"watch": "babel -w src --out-dir . --ignore \"**/__tests__\"",
+		"format": "prettier --write \"**/*.{js,json}\""
+	},
+	"keywords": [
+		"gatsby",
+		"gatsby-plugin",
+		"meeshkan",
+		"meeshkan-recorder"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/meeshkan/gatsby-plugin-meeshkan-recorder.git"
+	},
+	"author": "Meeshkan",
+	"license": "MIT",
+	"peerDependencies": {
+		"gatsby": "^2.0.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.12.1",
+		"@babel/core": "^7.12.3",
+		"babel-jest": "^26.6.2",
+		"babel-preset-gatsby": "^0.5.15",
+		"babel-preset-gatsby-package": "^0.5.3",
+		"jest": "^26.6.2",
+		"prettier": "^2.1.2",
+		"react": "^17.0.1"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.12.1"
+	}
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gatsby-plugin-meeshkan-recorder does not inject a script tag if clientId is not set 1`] = `[MockFunction]`;
+
+exports[`gatsby-plugin-meeshkan-recorder injects a script tag if clientId is set 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Array [
+        <script
+          src="https://recorder.meeshkan.com/recorder.js?client_id=b00ecdd5-d1f7-4a87-9d1f-142cc16c78d8"
+        />,
+      ],
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
